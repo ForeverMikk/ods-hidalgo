@@ -14,7 +14,7 @@ const Navbar = () => {
     
           if (currentScrollY > 0) {
             setNavHeight(60);
-            document.querySelector('nav').style.backgroundColor = '#222';
+            document.querySelector('nav').style.backgroundColor = '#8E2143';
             document.querySelector('img').style.height = '4rem';
         } else {
             setNavHeight(100);
