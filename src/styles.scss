@@ -23,10 +23,14 @@ body {
     color: $secondary;
   }
   .main-container{
-    background-image: url("./assets/hidalgo_w.png"), url("./assets/ods_l.png"), url("./assets/circle.png"), url("./assets/circle.png");
+    // background-image: url("./assets/hidalgo_w.png"), url("./assets/ods_l.png"), url("./assets/circle.png"), url("./assets/circle.png");
+    // background-repeat: no-repeat;
+    // background-position: 1rem 1rem,right 1rem, -50px 500px, 1080px -500px;
+    // background-size: 8rem, 8rem, 20%, 50%;
+    background-image: url("./assets/circle.png"), url("./assets/circle.png");
     background-repeat: no-repeat;
-    background-position: 1rem 1rem,right 1rem, -50px 500px, 1080px -500px;
-    background-size: 8rem, 8rem, 20%, 50%;
+    background-position: -50px 500px, 1080px -500px;
+    background-size: 20%, 50%;
     background-color: #8E2143;
     padding: 5rem 10rem 5rem 10rem;
     // width: 100%;
@@ -34,7 +38,7 @@ body {
   }
 
   .main-container-w{
-    background-image: url("./assets/circle.png"), url("./assets/circle.png");
+    background-image: url("./assets/circle_b.png"), url("./assets/circle_b.png");
     background-repeat: no-repeat;
     background-position: -50px 500px, 1080px -500px;
     background-size: 20%, 50%;
@@ -54,6 +58,13 @@ body {
   .form-container-g{
     border-radius: 15px;
     background-color: #f2f2f2;
+    padding: 2rem 10rem 2rem 10rem;
+
+  }
+
+  .form-container-wine{
+    border-radius: 15px;
+    background-color: $secondary;
     padding: 2rem 10rem 2rem 10rem;
 
   }
@@ -79,7 +90,7 @@ body {
   }
 
   .logos-top img{
-    max-width: 45%;
+    max-width: 15%;
     height: auto;
     margin: 0 10px;
   }

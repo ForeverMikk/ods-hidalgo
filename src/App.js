@@ -5,6 +5,10 @@ import './App.css';
 import './styles.scss';
 import { Formulario } from './components/Form/Formulario';
 import { Idea } from './components/Idea/Idea';
+import { Disclamer } from './components/Disclamer/Disclamer';
+import { CollageSuccess } from './components/CollageSuccess/CollageSuccess';
+import { Collage } from './components/Collage/Collage';
+import { EmbeddedForm } from './components/EmbeddedForm/EmbeddedForm';
 
 function App() {
   return (
@@ -16,10 +20,13 @@ function App() {
           <Route path='/form' element={<Form />} />
         </Routes>
       </Router>
-       
       </header> */}
-      <Idea />
       <Formulario />
+      <EmbeddedForm />
+      <Disclamer />
+      <Idea />
+      <CollageSuccess />
+      <Collage />
     </div>
   );
 }
