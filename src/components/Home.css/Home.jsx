@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 
 import './Home.css';
 import Timer from '../Timer/Timer';
+import Content from '../Content/Content';
 // import logoODS from  '../../assets/svg/logoODS_guinda.svg';
 
 const Home = () => {
@@ -19,6 +20,8 @@ const Home = () => {
                 <Button variant='primary'>Iniciar</Button>
             </div>
             
+
+            <Content />
         </div>
     )
 }
