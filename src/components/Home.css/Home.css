@@ -20,7 +20,8 @@
     flex-direction: column;
 
     height: 80%;
-    background: url(/src/assets/img/clock.png);
+    /* height: 90%; */
+    background: url(/src/assets/img/clock-ods.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
