@@ -23,8 +23,8 @@ function App() {
       </header> */}
       <Formulario />
       <EmbeddedForm />
-      <Disclamer />
-      <Idea />
+      {/* <Disclamer /> */}
+      {/* <Idea /> */}
       <CollageSuccess />
       <Collage />
     </div>
