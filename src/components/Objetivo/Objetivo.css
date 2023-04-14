@@ -1,0 +1,47 @@
+.objetivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.objetivo.reverse {
+    flex-direction: row-reverse;
+}
+.objetivo .img, .objetivo .content {
+    padding: 5rem;
+    width: 50%;
+}
+
+.objetivo .img {
+    /* object-fit: cover; */
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.objetivo .content {
+    border: 5px #8E2143 !important;
+
+}
+
+.objetivo p {
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.objetivo h2, h3 {
+    color:  #8E2143;
+}
+.objetivo h3 {
+    font-size: 1.1rem;
+}
+
+.objetivo .proposito {
+    width: 85%;
+    color: #FFF;
+    background: #E0D4BD;
+    padding: 1rem 0.5rem;
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-weight: 500;
+}
