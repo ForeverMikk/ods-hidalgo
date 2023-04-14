@@ -7,27 +7,29 @@
     flex-direction: row-reverse;
 }
 .objetivo .img, .objetivo .content {
-    padding: 5rem;
+    padding: 3rem 0;
+    margin: 5rem;
     width: 50%;
 }
 
-.objetivo .img {
-    /* object-fit: cover; */
-    background-size: contain;
-    background-repeat: repeat;
+.objetivo .img img {
+    width: 100%;
+    height: auto;
 }
 
 .objetivo .content {
-    border: 5px #8E2143 !important;
-
+    border: 3px solid #E0D4BD;
+    border-radius: 2rem;
 }
 
 .objetivo p {
+    padding-left: 2rem;
     font-weight: 600;
     font-size: 1.15rem;
 }
 
 .objetivo h2, h3 {
+    padding-left: 2rem;
     color:  #8E2143;
 }
 .objetivo h3 {
@@ -44,4 +46,9 @@
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     font-weight: 500;
+}
+
+.objetivo li {
+    padding-left: 2rem;
+    list-style: none;
 }

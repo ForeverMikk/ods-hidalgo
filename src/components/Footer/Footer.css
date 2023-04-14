@@ -1,0 +1,62 @@
+footer {
+    background: #8E2143;
+    padding: 3rem 2rem;
+    color: #fff;
+}
+
+footer .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .main img {
+    height: 7rem;
+}
+
+footer .main .phone {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .main .phone .single-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.85rem;
+    line-height: 0.5rem;
+}
+
+footer .main .contact {
+    padding-left: 1rem;
+    line-height: 1rem;
+}
+
+footer .main .contact p {
+    margin-bottom: 2rem;
+    font-size: small;
+}
+
+
+/* Secondary */
+footer .secondary {
+    display: flex;
+}
+
+footer .secondary .copyright {
+    width: 80% ;
+}
+
+footer .secondary .social ul {
+    display: flex;
+    margin-left: 2rem;
+}
+
+footer .secondary .social li {
+    margin: 0.5rem;
+    list-style: none;
+
+}
+footer .secondary .social img {
+    height: 1rem;
+}

@@ -5,8 +5,8 @@ import './Objetivo.css';
 const Objetivo = ({title, text, porpuse, data, img, className}) => {
     return (
         <div className={`objetivo ${className}`}>
-            <div className="img" style={{background: `url('${img})'`}}>
-                {/* <img src={img} alt="Imagen de Sencibilizacion" /> */}
+            <div className="img">
+                <img src={img} alt="Imagen de Sencibilizacion" />/
             </div>
 
             <div className="content">
