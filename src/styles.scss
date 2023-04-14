@@ -13,14 +13,32 @@ body {
     color: #5F6561;
   }
   
-  p {
+  p, input, label{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px !important;
     // color: #5F6561;
   }
 
+  .text-wine{
+    color: $secondary;
+  }
   .main-container{
+    background-image: url("./assets/hidalgo_w.png"), url("./assets/ods_l.png"), url("./assets/circle.png"), url("./assets/circle.png");
+    background-repeat: no-repeat;
+    background-position: 1rem 1rem,right 1rem, -50px 500px, 1080px -500px;
+    background-size: 8rem, 8rem, 20%, 50%;
     background-color: #8E2143;
+    padding: 5rem 10rem 5rem 10rem;
+    // width: 100%;
+    // height: 100%;
+  }
+
+  .main-container-w{
+    background-image: url("./assets/circle.png"), url("./assets/circle.png");
+    background-repeat: no-repeat;
+    background-position: -50px 500px, 1080px -500px;
+    background-size: 20%, 50%;
+    // background-color: #f2f2f2;
     padding: 5rem 10rem 5rem 10rem;
     // width: 100%;
     // height: 100%;
@@ -29,6 +47,13 @@ body {
   .form-container{
     border-radius: 15px;
     background-color: white;
+    padding: 2rem 10rem 2rem 10rem;
+
+  }
+
+  .form-container-g{
+    border-radius: 15px;
+    background-color: #f2f2f2;
     padding: 2rem 10rem 2rem 10rem;
 
   }
@@ -42,9 +67,26 @@ body {
     padding: 0.5rem 25px 0.5rem 25px !important;
   }
   
-  .main-logo{
+  .main-logo {
     width: 152px;
     height: 100%;
+  }
+
+  .logos-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logos-top img{
+    max-width: 45%;
+    height: auto;
+    margin: 0 10px;
+  }
+
+  input{
+    border: none;
+    border-radius: 30px;
   }
   
   @import "~bootstrap/scss/bootstrap";

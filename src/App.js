@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.scss';
-import { Form } from './components/Form/Form';
+import { Formulario } from './components/Form/Formulario';
+import { Idea } from './components/Idea/Idea';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       </Router>
        
       </header> */}
-      <Form />
+      <Idea />
+      <Formulario />
     </div>
   );
 }

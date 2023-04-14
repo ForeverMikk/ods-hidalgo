@@ -1,10 +1,13 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import sLogo from '../../assets/s_logo.png';
 import bars from '../../assets/bars.png';
 import logoHidalgo from '../../assets/hidalgo.png';
 
-export const Form = () => {
+export const Formulario = () => {
+
+  
   return (
     <>
     <div className='main-container'>
