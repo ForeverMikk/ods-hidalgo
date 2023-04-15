@@ -29,3 +29,30 @@
 .objetivos .text p {
     font-size: 1.15rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .objetivos .text {
+        width: 80%;   
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .objetivos {
+        width: auto;
+    }
+    .objetivos .text {
+        background: linear-gradient(
+        to top,
+        #8E2143 0%,
+        #8E2143 80%,
+        #fff 20%,
+        #fff 100%
+    );
+        width: 100%;
+    }
+    
+    .objetivos .text .main-img {
+        height: 15rem;
+    }
+}

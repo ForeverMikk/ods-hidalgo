@@ -41,3 +41,19 @@
 .landing .container h3 {
         font-size: 2rem;   
 }
+
+@media screen and (max-width: 1024px) {
+    .home .landing {
+        width: 50rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    .home .landing {
+        width: 100%;
+    }
+}

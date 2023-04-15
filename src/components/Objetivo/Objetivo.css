@@ -52,3 +52,60 @@
     padding-left: 2rem;
     list-style: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .objetivo .img, .objetivo .content {
+        margin: 3rem 2rem;
+    }
+    .objetivo .content {
+        width: 60%;
+    }
+    .objetivo .img {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .objetivo {
+        flex-direction: column;
+    }
+
+    .objetivo .img, .objetivo .content {
+        width: auto;
+        margin: 3rem 2rem 0 2rem;
+    }
+
+    .objetivo.reverse {
+        flex-direction: column;
+    }
+
+    .objetivo .content {
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .objetivo h2, h3 {
+        padding-left: 1rem;
+        color:  #8E2143;
+    }
+    .objetivo p, .objetivo li, .objetivo p {
+        padding-left: 1rem;
+    }
+
+    .objetivo .proposito {
+        width: 95%;
+    }
+
+    .objetivo p {
+        font-size: 0.95rem;
+    }
+
+    .objetivo .img, .objetivo .content {
+        width: auto;
+        margin: 1rem;
+    }
+}

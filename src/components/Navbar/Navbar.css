@@ -26,3 +26,12 @@ nav {
     height: 1.5rem;
     width: 1.5rem;
 }
+
+@media screen and (max-width: 640px) {
+    nav {
+        width: auto;
+    }
+    .navbar .nav-logo {
+        height: 2rem;
+    }
+}
